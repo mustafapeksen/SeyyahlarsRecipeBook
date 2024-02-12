@@ -7,10 +7,12 @@
                 <% if (locals.name) { %>
                     <h2>Random Meal</h2>
 
+                    <!-- Meal name -->
                     <h3>
                         <%=name%>
                     </h3>
 
+                    <!-- Meal picture -->
                     <img src="<%=image%>" alt="recipe Image">
 
                     <h4>Summary </h4>
@@ -21,12 +23,14 @@
 
                     <p><%-instructions%></p>
                     <% }else {%>
+
+                        <!-- If the product is not available, it gets this error -->
                         <h2>Sorry. Try Again Later</h2>
 
                         <% } %>
             </div>
         </div>
     </div>
-    
+
     <!-- Add footer.ejs file -->
     <%- include('partials/footer.ejs') %>

@@ -1,0 +1,140 @@
+body {
+    background-color: #9CEB75;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #004403;
+    font-family: 'Cormorant', serif;
+    font-size: 6rem;
+}
+
+h2 {
+    color: #004403;
+    font-family: 'Cormorant', serif;
+    font-size: 5rem;
+}
+
+h3 {
+    color: #004403;
+    font-family: 'Cormorant', serif;
+    font-size: 4rem;
+}
+
+.h3-title {
+    color: #004403;
+    font-family: 'Cormorant', serif;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+h4 {
+    color: #004403;
+    font-family: 'Cormorant', serif;
+    font-size: 2rem;
+}
+
+p {
+    color: #4B6300;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #006603;
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.anchor {
+    color: #4B6300;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    gap: 25px;
+}
+
+li {
+    color: #4B6300;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapped-body {
+    width: 80%;
+}
+
+.page-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #68C75D;
+    padding: 1px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+footer {
+    background-color: #68C75D;
+    padding: 1px;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 2rem;
+    border-radius: 50px;
+}
+
+img {
+    border-radius: 50px;
+    margin-bottom: 64px;
+}
+
+hr {
+    border: solid #004403 2px;
+}
+
+.number {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: greenyellow;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(156, 231, 43);
+}

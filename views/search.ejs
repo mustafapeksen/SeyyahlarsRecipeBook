@@ -1,0 +1,35 @@
+<%- include('partials/header.ejs') %>
+
+    <div class="container">
+        <div class="wrapped-body">
+            <div class="meal">
+                <% if (meals && meals.length> 0) { %>
+                    <h2>Search for <%= search %> Meal</h2>
+                    <% for (let meal of meals) { %>
+                        <hr />
+                        <h3>
+                            <!-- Yemek adına tıklanabilir bir bağlantı ekleyin -->
+                            <a class="h3-title" href="/getRecipe/<%= meal.id %>">
+                                <%= meal.title %>
+                            </a>
+                        </h3>
+
+                        <img src="<%= meal.image %>" alt="recipe Image">
+                        <% } %>
+                            <div class="page-number">
+                                <% if (numberOfPages && numberOfPages> 0) { %>
+                                    <% for (let i=1; i <=numberOfPages; i++) { %>
+                                        <a class="anchor number" href="/search/page-<%= i %>">
+                                            <%= i %>
+                                        </a>
+                                        <% } %>
+                            </div>
+                            <% } %>
+                                <% } else { %>
+                                    <h2>Sorry. Try Again Later</h2>
+                                    <% } %>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>

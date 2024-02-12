@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+
+    <div class="container">
+        <div class="wrapped-body">
+            <div class="meal">
+                <% if (locals.name) { %>
+                    <h2>Meal</h2>
+
+                    <h3>
+                        <%=name%>
+                    </h3>
+
+                    <img src="<%=image%>" alt="recipe Image">
+
+                    <h4>Summary </h4>
+
+                    <p><%-summary%></p>
+
+                    <h4>Instructions</h4>
+
+                    <p><%-instructions%></p>
+                    <% }else {%>
+                        <h2>Sorry. Try Again Later</h2>
+
+                        <% } %>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>

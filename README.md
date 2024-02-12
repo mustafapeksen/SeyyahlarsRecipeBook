@@ -12,6 +12,7 @@ Usage Guide
     Go to Spoonacular and register to get an API key.
     Enter your API key in the relevant field.
     Fill in the personal sections you want to use on the page (for example, the social media section in the footer or the sections on the about and contact pages).
+    You can start running nodemon index.js
 
 Contributing Guidelines
 

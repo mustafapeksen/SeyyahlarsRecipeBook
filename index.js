@@ -6,7 +6,7 @@ import axios from "axios";
 // Initializing express app
 const app = express();
 const port = 3000;
-const yourApiKey = "/"
+const yourApiKey = "446292e35a2a4502a59090512b1a7597"
 const config = {
     headers: {
         'Content-Type': 'application/json',
